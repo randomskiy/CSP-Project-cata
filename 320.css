@@ -1,0 +1,39 @@
+@media screen and (min-width: 100px) {
+    .navigation {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        overflow-x: visible;
+    }
+
+.header__deliver--hidden,
+.button--hiden{
+    display: none;
+
+}
+.menu__item--hidden-link{
+    display: none;
+}
+
+.article__text--size {
+    width: 288px;
+    max-height: 90px;
+    overflow: hidden;
+    
+    justify-content: center;
+}
+
+.article__content--size {
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
+
+
+.main__section{
+    padding-bottom: 35px;
+}
+
+
+
+
+}

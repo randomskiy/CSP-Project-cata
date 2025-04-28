@@ -1,0 +1,76 @@
+@media screen and (min-width: 767px) {
+
+.header__deliver,
+.button--hiden{
+    display: flex;
+    gap: 16px;
+    margin: 0;
+}
+
+
+.main__header {
+    padding-top: 24px;
+    padding-left: 25px;
+    padding-bottom: 32px;
+    gap: 22px;
+}
+
+.main__title::before {
+    left: -24px;
+}
+
+.header__deliver--hidden {
+    display: block;
+}
+
+.article {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    max-height: 160px;
+    min-width: 312px;
+    overflow: hidden;
+}
+
+.article__content--size {
+    padding-left: 24px;
+    
+    
+}
+
+.article__image{
+    margin-right: 25px;
+    width: 360px;
+height: 208px;
+border-top-left-radius: 4px
+
+
+}
+
+.article__text--size {
+    width: 312px;
+    max-height: 160px;
+    overflow: hidden;
+    
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+}
+
+

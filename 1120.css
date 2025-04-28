@@ -1,0 +1,116 @@
+@media screen  and (min-width: 1120px) {
+
+    .header{
+        display: none;
+
+    }
+    .menu__item--hidden-link{
+        display: flex;
+        margin: 24;
+    }
+    .main__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+    .menu__list li:first-child .menu__button::after {
+        background-image: url("./img/repair.svg");
+    }
+
+    .menu__list li:last-child .menu__button::after {
+        background-image: url("./img/check.svg");
+    }
+
+    .menu__button::after {
+        content: "";
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin-left: 8px;
+        background-size: cover;
+    }
+.main__title::before{
+    left: -32px;
+}
+
+
+
+
+    .main__menu--hidden {
+        display: flex;
+    }
+
+    .menu__button {
+        
+        font-family: 'TT Lakes', sans-serif;
+        font-size: 16px;
+        font-weight: 500px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        text-align: left;
+        background: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+
+    .menu__list{
+        
+        list-style: none;
+        display: flex;
+        gap: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    
+.main__header{
+    
+        padding-top: 42px;
+        padding-left: 32px;
+        padding-right: 33px;
+        padding-bottom: 15px;
+        gap: 8px;
+
+}
+
+.navigation{
+
+margin-top: 16px; 
+}
+.navigation__wrapper {
+    padding-right: 16px;
+    margin-top: 16px;
+}
+
+.navigation__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px; 
+}
+
+.article__image{
+    width: 531px;
+height: 307px;
+margin-right: 29px;
+}
+
+.article__content--size{
+    padding-left: 34px;
+}
+
+.article__text--size{
+    width: 490px;
+}
+
+}
+
+
+
+
+
+
