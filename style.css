@@ -24,14 +24,7 @@ src: url('./fonts/TTLakes-Regular.woff') format('woff');
   }
 
 
-li{
-    font-family: 'TTLakes';
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: -0.2px;
-font-style: normal;
-}
+
 
 /*fonts*/
 p{
@@ -40,6 +33,15 @@ p{
 font-size: 14px;
 line-height: 18px;
 letter-spacing: 0.2px;
+}
+
+li{
+    font-family: 'TTLakes';
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.2px;
+font-style: normal;
 }
 
 
@@ -71,19 +73,19 @@ body{
 .header__burger{
         background-image: url(/img/burger.svg);
     }
-.button--call{
+.button__call{
         background-image: url(/img/call.svg);
     }
-.button--chat{
+.button__chat{
         background-image: url(/img/chat.svg);
     }
-.button--profileuser{
+.button__profileuser{
         background-image: url(/img/profileuser.svg);
     }
-.button--repair{
+.button__repair{
         background-image: url(/img/repair.svg);
     }
-.button--check{
+.button__check{
         background-image: url(/img/check.svg);
     }
 
@@ -274,7 +276,10 @@ padding: 0;
     align-items: center;
     flex-wrap: nowrap;
     margin-bottom: 16px;
+    
 }
+
+
 
 .button_read-more::before {
     content: "";

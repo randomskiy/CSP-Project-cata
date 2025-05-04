@@ -27,6 +27,12 @@
     padding-right: 16px;
     
 }
+.article {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 
 .main__section{
