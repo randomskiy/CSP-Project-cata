@@ -71,22 +71,24 @@ body{
     }
 
 .header__burger{
-        background-image: url(/img/burger.svg);
+        background-image: url(./img/burger.svg);
     }
 .button__call{
-        background-image: url(/img/call.svg);
+        background-image: url(./img/call.svg);
+    
     }
 .button__chat{
-        background-image: url(/img/chat.svg);
+        background-image: url(./img/chat.svg);
     }
 .button__profileuser{
-        background-image: url(/img/profileuser.svg);
+        background-image: url(./img/profileuser.svg);
     }
 .button__repair{
-        background-image: url(/img/repair.svg);
+        background-image: url(./img/repair.svg);
     }
 .button__check{
-        background-image: url(/img/check.svg);
+        background-image: url(./img/check.svg);
+        
     }
 
 .round--icon{
